@@ -1,9 +1,3 @@
-require 'rspec/core/rake_task'
-
-RSpec::Core::RakeTask.new(:spec)
-
-task :default => :spec
-
 begin
   require 'rubygems'
   require 'github_changelog_generator/task'
