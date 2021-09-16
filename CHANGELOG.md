@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/2.0.0) (2021-09-16)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/1.0.0...2.0.0)
+
+**Breaking changes:**
+
+- Add puppet-lint-top\_scope\_facts-check [\#5](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/5) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [1.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/1.0.0) (2021-08-17)
 
 [Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/04879bddcd1d2f52bcb8806140cf666bd94120cb...1.0.0)
