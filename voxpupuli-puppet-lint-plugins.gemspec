@@ -33,4 +33,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'puppet-lint-optional_default-check'
   s.add_runtime_dependency 'puppet-lint-top_scope_facts-check'
   s.add_runtime_dependency 'puppet-lint-lookup_in_parameter-check'
+  s.add_runtime_dependency 'puppet-lint-param-docs'
 end
