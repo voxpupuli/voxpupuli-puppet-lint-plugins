@@ -6,10 +6,7 @@ RuboCop::RakeTask.new(:rubocop) do |task|
   task.options = ['-D', '-S', '-E']
 
   # Use Rubocop's Github Actions formatter if possible
-  if ENV['GITHUB_ACTIONS'] == 'true'
-    rubocop_spec = Gem::Specification.find_by_name('rubocop')
-    task.formatters << 'github' if Gem::Version.new(rubocop_spec.version) >= Gem::Version.new('1.2')
-  end
+  task.formatters << 'github' if ENV['GITHUB_ACTIONS'] == 'true'
 end
 
 task default: [:rubocop]
