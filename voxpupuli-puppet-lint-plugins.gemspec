@@ -37,4 +37,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake', '>= 13.0'
   # pull in older rubocop. Newer doesn't support ruby 2.4
   s.add_development_dependency 'rubocop', '~> 1.12.0'
+  s.add_development_dependency 'rubocop-rake'
 end
