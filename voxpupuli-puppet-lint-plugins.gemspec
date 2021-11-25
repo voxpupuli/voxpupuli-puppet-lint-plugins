@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'puppet-lint-manifest_whitespace-check'
   s.add_runtime_dependency 'puppet-lint-optional_default-check'
   s.add_runtime_dependency 'puppet-lint-param-docs'
+  s.add_runtime_dependency 'puppet-lint-params_empty_string-check'
   s.add_runtime_dependency 'puppet-lint-param-types'
   s.add_runtime_dependency 'puppet-lint-resource_reference_syntax'
   s.add_runtime_dependency 'puppet-lint-strict_indent-check'
