@@ -1,5 +1,22 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+
+## [3.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/3.0.0) (2021-11-25)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/2.0.0...3.0.0)
+
+**Breaking changes:**
+
+- Add puppet-lint-param-types [\#12](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/12) ([bastelfreak](https://github.com/bastelfreak))
+- Add puppet-lint-param-docs [\#10](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/10) ([bastelfreak](https://github.com/bastelfreak))
+- Add puppet-lint-params\_empty\_string-check [\#8](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/8) ([bastelfreak](https://github.com/bastelfreak))
+- Add puppet-lint-lookup\_in\_parameter-check [\#7](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/7) ([smortex](https://github.com/smortex))
+
+**Implemented enhancements:**
+
+- Implement Rubocop linting [\#9](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/9) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [2.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/2.0.0) (2021-09-16)
 
 [Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/1.0.0...2.0.0)
