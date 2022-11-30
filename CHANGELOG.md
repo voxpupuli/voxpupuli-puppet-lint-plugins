@@ -2,7 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
-## [3.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/3.0.0) (2021-11-25)
+## [3.1.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/3.1.0) (2022-11-30)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/3.0.0...3.1.0)
+
+**Implemented enhancements:**
+
+- pull in latest puppet-lint plugins [\#26](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/26) ([bastelfreak](https://github.com/bastelfreak))
+
+**Fixed bugs:**
+
+- gemspec: Fix license format to be SPDX compliant [\#27](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/27) ([bastelfreak](https://github.com/bastelfreak))
+
+## [3.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/3.0.0) (2021-11-26)
 
 [Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/2.0.0...3.0.0)
 

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'voxpupuli-puppet-lint-plugins'
-  s.version     = '3.0.0'
+  s.version     = '3.1.0'
   s.authors     = ['Vox Pupuli']
   s.email       = ['pmc@voxpupuli.org']
   s.homepage    = 'https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins'
