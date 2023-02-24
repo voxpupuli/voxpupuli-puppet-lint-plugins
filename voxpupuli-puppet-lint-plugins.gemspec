@@ -13,13 +13,13 @@ Gem::Specification.new do |s|
   # puppet-lint 3.1 requires Ruby 2.5 and newer. Also Ruby 2.5 is in Puppet 6 AIO
   s.required_ruby_version = '>= 2.5.0'
 
-  # pull in puppet-lint 2.5.0; required for Ruby 3 support
-  s.add_runtime_dependency 'puppet-lint', '>= 2.5.0'
+  # pull in puppet-lint 3.1 or newer. Required for code annotations in GitHub
+  # Also it vendors top_scope_facts-check and legacy_facts-check
+  s.add_runtime_dependency 'puppet-lint', '~> 3.1'
   s.add_runtime_dependency 'puppet-lint-absolute_classname-check', '~> 3.1'
   s.add_runtime_dependency 'puppet-lint-anchor-check', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-file_ensure-check', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-leading_zero-check', '~> 1.0'
-  s.add_runtime_dependency 'puppet-lint-legacy_facts-check', '>= 1.0.4', '< 2.0.0'
   s.add_runtime_dependency 'puppet-lint-lookup_in_parameter-check', '~> 1.0'
   s.add_runtime_dependency 'puppet-lint-manifest_whitespace-check', '~> 0.2.7', '< 1.0.0'
   s.add_runtime_dependency 'puppet-lint-optional_default-check', '~> 1.1'
@@ -28,7 +28,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'puppet-lint-param-types', '~> 1.0'
   s.add_runtime_dependency 'puppet-lint-resource_reference_syntax', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-strict_indent-check', '~> 2.1'
-  s.add_runtime_dependency 'puppet-lint-top_scope_facts-check', '>= 1.0.1', '< 2.0.0'
   s.add_runtime_dependency 'puppet-lint-topscope-variable-check', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-trailing_comma-check', '~> 1.0'
   s.add_runtime_dependency 'puppet-lint-unquoted_string-check', '~> 2.2'
