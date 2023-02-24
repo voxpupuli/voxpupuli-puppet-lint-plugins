@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.description = 'A package that depends on all the puppet-lint-* gems Vox Pupuli modules need and puppet-lint itself'
   s.licenses    = 'AGPL-3.0'
 
-  # some of the plugins claim to require Ruby 2.4.0 or newer
-  s.required_ruby_version = '>= 2.4.0'
+  # puppet-lint 3.1 requires Ruby 2.5 and newer. Also Ruby 2.5 is in Puppet 6 AIO
+  s.required_ruby_version = '>= 2.5.0'
 
   # pull in puppet-lint 2.5.0; required for Ruby 3 support
   s.add_runtime_dependency 'puppet-lint', '>= 2.5.0'
@@ -36,8 +36,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'puppet-lint-version_comparison-check', '~> 1.1'
 
   s.add_development_dependency 'rake', '>= 13.0'
-  # pull in older rubocop. Newer doesn't support ruby 2.4
-  s.add_development_dependency 'rubocop', '~> 1.12.0'
-  # with 0.6.0 Ruby 2.4 support was dropped
-  s.add_development_dependency 'rubocop-rake', '~> 0.5.1'
+  # pull in older rubocop. Newer doesn't support ruby 2.5
+  s.add_development_dependency 'rubocop', '~> 1.28.0'
+  s.add_development_dependency 'rubocop-rake', '~> 0.6.0'
 end
