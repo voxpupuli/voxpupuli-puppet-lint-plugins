@@ -6,7 +6,7 @@ RuboCop::RakeTask.new(:rubocop) do |task|
   task.options = ['--display-cop-names', '--display-style-guide', '--extra-details']
 
   # Use Rubocop's Github Actions formatter if possible
-  task.formatters << 'github' if ENV['GITHUB_ACTIONS'] == 'true'
+  task.formatters << 'github' if ENV.fetch('GITHUB_ACTIONS', nil) == 'true'
 end
 
 task default: [:rubocop]
