@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/4.0.0) (2023-02-28)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/3.1.0...4.0.0)
+
+**Breaking changes:**
+
+- Drop Ruby 2.4 support [\#36](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/36) ([bastelfreak](https://github.com/bastelfreak))
+- Require puppet-lint 3.1 or newer [\#33](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/33) ([bastelfreak](https://github.com/bastelfreak))
+
+**Implemented enhancements:**
+
+- Add Ruby 3.1/3.2 support [\#34](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/34) ([bastelfreak](https://github.com/bastelfreak))
+- puppet-lint-param-types: Allow 1.x [\#31](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/31) ([bastelfreak](https://github.com/bastelfreak))
+- Drop classes\_and\_types\_beginning\_with\_digits-check [\#29](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/29) ([bastelfreak](https://github.com/bastelfreak))
+
+**Merged pull requests:**
+
+- Upgrade GH actions [\#30](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/30) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [3.1.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/3.1.0) (2022-11-30)
 
 [Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/3.0.0...3.1.0)
