@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   # pull in puppet-lint 3.1 or newer. Required for code annotations in GitHub
   # Also it vendors top_scope_facts-check and legacy_facts-check
-  s.add_runtime_dependency 'puppet-lint', '~> 3.1'
+  s.add_runtime_dependency 'puppet-lint', '>= 3.4', '< 5'
   s.add_runtime_dependency 'puppet-lint-absolute_classname-check', '~> 4.0'
   s.add_runtime_dependency 'puppet-lint-anchor-check', '~> 2.0'
   s.add_runtime_dependency 'puppet-lint-file_ensure-check', '~> 2.0'
