@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'puppet-lint-params_empty_string-check', '~> 1.0'
   s.add_runtime_dependency 'puppet-lint-param-types', '~> 1.0'
   s.add_runtime_dependency 'puppet-lint-resource_reference_syntax', '~> 1.1'
-  s.add_runtime_dependency 'puppet-lint-strict_indent-check', '~> 2.1'
+  s.add_runtime_dependency 'puppet-lint-strict_indent-check', '>= 2.1', '< 4.0'
   s.add_runtime_dependency 'puppet-lint-topscope-variable-check', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-trailing_comma-check', '~> 1.0'
   s.add_runtime_dependency 'puppet-lint-unquoted_string-check', '~> 2.2'
