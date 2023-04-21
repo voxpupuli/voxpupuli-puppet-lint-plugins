@@ -29,3 +29,10 @@ jobs:
         run: bundle exec rake rubocop
       - name: Build the gem
         run: gem build *.gemspec
+  tests:
+    needs:
+      - test
+    runs-on: ubuntu-latest
+    name: Test suite
+    steps:
+      - run: echo Test suite completed
