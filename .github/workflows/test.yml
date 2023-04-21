@@ -30,7 +30,7 @@ jobs:
       - name: run rubocop
         run: bundle exec rake rubocop
       - name: Build the gem
-        run: gem build *.gemspec
+        run: gem build --strict --verbose *.gemspec
   tests:
     needs:
       - test
