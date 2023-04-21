@@ -10,8 +10,7 @@ Gem::Specification.new do |s|
   s.description = 'A package that depends on all the puppet-lint-* gems Vox Pupuli modules need and puppet-lint itself'
   s.licenses    = 'AGPL-3.0'
 
-  # puppet-lint 3.1 requires Ruby 2.5 and newer. Also Ruby 2.5 is in Puppet 6 AIO
-  s.required_ruby_version = '>= 2.5.0'
+  s.required_ruby_version = '>= 2.7.0'
 
   # pull in puppet-lint 3.1 or newer. Required for code annotations in GitHub
   # Also it vendors top_scope_facts-check and legacy_facts-check
