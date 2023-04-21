@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   # Also it vendors top_scope_facts-check and legacy_facts-check
   s.add_runtime_dependency 'puppet-lint', '~> 3.1'
   s.add_runtime_dependency 'puppet-lint-absolute_classname-check', '~> 3.1'
-  s.add_runtime_dependency 'puppet-lint-anchor-check', '~> 1.1'
+  s.add_runtime_dependency 'puppet-lint-anchor-check', '>= 1.1', '< 3.0'
   s.add_runtime_dependency 'puppet-lint-file_ensure-check', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-leading_zero-check', '~> 1.0'
   s.add_runtime_dependency 'puppet-lint-lookup_in_parameter-check', '~> 1.0'
