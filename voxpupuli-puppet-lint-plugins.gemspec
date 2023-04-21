@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'puppet-lint-anchor-check', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-file_ensure-check', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-leading_zero-check', '~> 1.0'
-  s.add_runtime_dependency 'puppet-lint-lookup_in_parameter-check', '~> 1.0'
+  s.add_runtime_dependency 'puppet-lint-lookup_in_parameter-check', '>= 1', '< 3'
   s.add_runtime_dependency 'puppet-lint-manifest_whitespace-check', '~> 0.2.7', '< 1.0.0'
   s.add_runtime_dependency 'puppet-lint-optional_default-check', '~> 1.1'
   s.add_runtime_dependency 'puppet-lint-param-docs', '>= 1.7.6', '< 2.0.0'
