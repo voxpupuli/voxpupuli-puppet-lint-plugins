@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.7.0'
 
-  # pull in puppet-lint 3.1 or newer. Required for code annotations in GitHub
+  # pull in puppet-lint 3.4 or newer.
   # Also it vendors top_scope_facts-check and legacy_facts-check
   s.add_runtime_dependency 'puppet-lint', '>= 3.4', '< 5'
   s.add_runtime_dependency 'puppet-lint-absolute_classname-check', '~> 4.0'
@@ -34,7 +34,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'puppet-lint-version_comparison-check', '~> 2.0'
 
   s.add_development_dependency 'rake', '>= 13.0'
-  # pull in older rubocop. Newer doesn't support ruby 2.5
-  s.add_development_dependency 'rubocop', '~> 1.28.0'
-  s.add_development_dependency 'rubocop-rake', '~> 0.6.0'
+  s.add_development_dependency 'voxpupuli-rubocop', '~> 1.1'
 end
