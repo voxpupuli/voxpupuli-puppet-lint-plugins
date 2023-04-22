@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/5.0.0) (2023-04-22)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/4.0.0...5.0.0)
+
+**Breaking changes:**
+
+- puppet-lint: Require 4.x [\#53](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/53) ([bastelfreak](https://github.com/bastelfreak))
+- Enable puppet-lint 4 support; Switch to Ruby \>2.7 [\#51](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/51) ([bastelfreak](https://github.com/bastelfreak))
+
+**Implemented enhancements:**
+
+- manifest\_whitespace-check: require 0.3.x [\#52](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/52) ([bastelfreak](https://github.com/bastelfreak))
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 2 to 3 [\#39](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/39) ([dependabot[bot]](https://github.com/apps/dependabot))
+- dependabot: check for github actions as well [\#38](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/38) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [4.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/4.0.0) (2023-02-28)
 
 [Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/3.1.0...4.0.0)
