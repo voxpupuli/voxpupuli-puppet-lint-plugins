@@ -1,7 +1,3 @@
-AllCops:
-  NewCops: enable
-  TargetRubyVersion: 2.5
-require: rubocop-rake
-
-Gemspec/RequireMFA:
-  Enabled: False
+---
+inherit_gem:
+  voxpupuli-rubocop: rubocop.yml

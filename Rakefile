@@ -1,12 +1,17 @@
 # frozen_string_literal: true
 
-require 'rubocop/rake_task'
-RuboCop::RakeTask.new(:rubocop) do |task|
-  # These make the rubocop experience maybe slightly less terrible
-  task.options = ['--display-cop-names', '--display-style-guide', '--extra-details']
+begin
+  require 'rubocop/rake_task'
+rescue LoadError
+  # rubocop is in optional group
+else
+  RuboCop::RakeTask.new(:rubocop) do |task|
+    # These make the rubocop experience maybe slightly less terrible
+    task.options = ['--display-cop-names', '--display-style-guide', '--extra-details']
 
-  # Use Rubocop's Github Actions formatter if possible
-  task.formatters << 'github' if ENV.fetch('GITHUB_ACTIONS', nil) == 'true'
+    # Use Rubocop's Github Actions formatter if possible
+    task.formatters << 'github' if ENV.fetch('GITHUB_ACTIONS', nil) == 'true'
+  end
 end
 
 task default: [:rubocop]
