@@ -34,5 +34,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'puppet-lint-version_comparison-check', '~> 2.0'
 
   s.add_development_dependency 'rake', '~> 13.0', '>= 13.0.6'
-  s.add_development_dependency 'voxpupuli-rubocop', '~> 2.0'
+  s.add_development_dependency 'voxpupuli-rubocop', '~> 2.8.0'
 end
