@@ -1,3 +1,4 @@
+---
 name: Test
 
 on:
@@ -5,9 +6,6 @@ on:
   push:
     branches:
       - master
-
-env:
-  BUNDLE_WITHOUT: release
 
 jobs:
   test:
