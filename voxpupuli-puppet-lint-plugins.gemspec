@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins'
   s.summary     = 'Helper Gem that pulls in all the puppet-lint plugins that Vox Pupuli uses'
   s.description = 'A package that depends on all the puppet-lint-* gems Vox Pupuli modules need and puppet-lint itself'
-  s.licenses    = 'AGPL-3.0'
+  s.licenses    = 'AGPL-3.0-only'
   s.files       = ['README.md', 'LICENSE']
   s.required_ruby_version = '>= 2.7.0'
 
