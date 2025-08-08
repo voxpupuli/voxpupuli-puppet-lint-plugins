@@ -1,3 +1,6 @@
 ---
 inherit_gem:
   voxpupuli-rubocop: rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 3.2
