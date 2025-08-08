@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [6.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/6.0.0) (2025-08-08)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/5.0.0...6.0.0)
+
+**Breaking changes:**
+
+- Update `puppet-lint-manifest_whitespace-check` from `~> 0.3, < 1.0.0` to `~> 1.0` [\#63](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/63) ([kenyon](https://github.com/kenyon))
+- Update puppet-lint-strict\_indent-check requirement from ~\> 3.0 to \>= 3, \< 5 [\#62](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/62) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+**Implemented enhancements:**
+
+- CI: Configure Vox Pupuli release defaults & Set minimal token permissions & Generate matrix dynamically [\#66](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/66) ([bastelfreak](https://github.com/bastelfreak))
+
+**Fixed bugs:**
+
+- License: set correct license identifier AGPL-3.0-only [\#67](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/67) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [5.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/5.0.0) (2023-04-22)
 
 [Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/4.0.0...5.0.0)
@@ -17,7 +34,6 @@ All notable changes to this project will be documented in this file.
 
 **Merged pull requests:**
 
-- Bump actions/checkout from 2 to 3 [\#39](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/39) ([dependabot[bot]](https://github.com/apps/dependabot))
 - dependabot: check for github actions as well [\#38](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/38) ([bastelfreak](https://github.com/bastelfreak))
 
 ## [4.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/4.0.0) (2023-02-28)
