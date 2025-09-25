@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   # pull in puppet-lint 4 or newer.
   # Also it vendors top_scope_facts-check and legacy_facts-check
-  s.add_dependency 'puppet-lint', '~> 4.0'
+  s.add_dependency 'puppet-lint', '>= 4', '< 6'
   s.add_dependency 'puppet-lint-absolute_classname-check', '~> 4.0'
   s.add_dependency 'puppet-lint-anchor-check', '~> 2.0'
   s.add_dependency 'puppet-lint-file_ensure-check', '~> 2.0'
