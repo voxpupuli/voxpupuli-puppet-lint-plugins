@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = 'A package that depends on all the puppet-lint-* gems Vox Pupuli modules need and puppet-lint itself'
   s.licenses    = 'AGPL-3.0-only'
   s.files       = ['README.md', 'LICENSE']
-  s.required_ruby_version = '>= 2.7.0'
+  s.required_ruby_version = '>= 3.2.0'
 
   # pull in puppet-lint 4 or newer.
   # Also it vendors top_scope_facts-check and legacy_facts-check
@@ -34,5 +34,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'puppet-lint-version_comparison-check', '~> 2.0'
 
   s.add_development_dependency 'rake', '~> 13.0', '>= 13.0.6'
-  s.add_development_dependency 'voxpupuli-rubocop', '~> 3.1.0'
+  s.add_development_dependency 'voxpupuli-rubocop', '~> 4.2.0'
 end
