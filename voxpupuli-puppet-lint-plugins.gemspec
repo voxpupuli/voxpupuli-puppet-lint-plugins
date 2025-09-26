@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'puppet-lint', '~> 5.1'
   s.add_dependency 'puppet-lint-absolute_classname-check', '~> 5.0'
   s.add_dependency 'puppet-lint-anchor-check', '~> 3.0'
+  s.add_dependency 'puppet-lint-exec_idempotency-check', '~> 2.0'
   s.add_dependency 'puppet-lint-file_ensure-check', '~> 3.0'
   s.add_dependency 'puppet-lint-leading_zero-check', '~> 3.0'
   s.add_dependency 'puppet-lint-lookup_in_parameter-check', '~> 3.0'
