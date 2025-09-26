@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'puppet-lint-package_ensure-check', '~> 0.2'
   s.add_dependency 'puppet-lint-param-docs', '~> 3.0'
   s.add_dependency 'puppet-lint-params_empty_string-check', '~> 3.0'
+  s.add_dependency 'puppet-lint-params_not_optional_with_undef-check', '~> 1.0'
   s.add_dependency 'puppet-lint-param-types', '~> 3.0'
   s.add_dependency 'puppet-lint-resource_reference_syntax', '~> 3.0'
   s.add_dependency 'puppet-lint-strict_indent-check', '~> 5.0'
