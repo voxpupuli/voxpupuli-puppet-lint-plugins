@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [7.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/7.0.0) (2025-09-26)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/6.0.0...7.0.0)
+
+**Breaking changes:**
+
+- Add puppet-lint-params\_not\_optional\_with\_undef-check [\#73](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/73) ([bastelfreak](https://github.com/bastelfreak))
+- Add puppet-lint-exec\_idempotency-check [\#72](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/72) ([bastelfreak](https://github.com/bastelfreak))
+- Require puppet-lint 5.1+ [\#71](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/71) ([bastelfreak](https://github.com/bastelfreak))
+- Require Ruby 3.2 or newer [\#64](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/64) ([bastelfreak](https://github.com/bastelfreak))
+- Add puppet-lint-package\_ensure-check check [\#59](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/pull/59) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [6.0.0](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/tree/6.0.0) (2025-08-08)
 
 [Full Changelog](https://github.com/voxpupuli/voxpupuli-puppet-lint-plugins/compare/5.0.0...6.0.0)
