@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'puppet-lint-params_not_optional_with_undef-check', '~> 1.0'
   s.add_dependency 'puppet-lint-param-types', '~> 3.0'
   s.add_dependency 'puppet-lint-resource_reference_syntax', '~> 3.0'
+  s.add_dependency 'puppet-lint-stdlib_deprecations', '~> 0.0.5'
   s.add_dependency 'puppet-lint-strict_indent-check', '~> 5.0'
   s.add_dependency 'puppet-lint-topscope-variable-check', '~> 3.0'
   s.add_dependency 'puppet-lint-trailing_comma-check', '~> 3.0'
